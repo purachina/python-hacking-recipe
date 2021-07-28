@@ -35,3 +35,11 @@
 
 ## 함수명
 실행에 이상없으나 5-10, 6-2, 6-6 예제에 asnyc_func 함수명을 async_func 로 수정
+
+## p.183
+그림 4-19에 동기와 비동기 오타 Svnchronous, Asvnchronous -> Synchronous, Asynchronous
+
+## p.195
+코드 4-18 line 20, 21
+resp = await loop.run_in_executor(None, tcp_request, port)
+(인자 수정이 없으니 partial을 쓰지 않는 케이스도 있으면 어떨까 싶어요.)
